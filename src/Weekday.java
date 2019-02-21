@@ -4,6 +4,7 @@ public class Weekday {
 
     public static void main(String[] args) {
 
+
         // Displays legend
         System.out.println("This will calculate what day of the week for date provided.");
         System.out.println("=================================================================");
@@ -35,10 +36,13 @@ public class Weekday {
 
         System.out.println("=================================================================");
 
-        // Array used to associate name of day with number and print associated day
+        // Array used to associate name of day with number and print day name
         String [] daysOfWeek = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
         System.out.println("The day of the week is " + daysOfWeek[weekDay]);
 
-
     }
+
+
+
+
 }
